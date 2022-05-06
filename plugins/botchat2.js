@@ -2,8 +2,8 @@ let moment = require('moment-timezone')
 let fs = require('fs')
 let handler = async (m, { conn, command }) => {
 let img = './src/mike.png'
-let img1 = fs.readFileSync('./src/img1.png')
-let img2 = fs.readFileSync('./src/img2.png')
+let img1 = fs.readFileSync('./src/shiraori.jpg')
+let img2 = fs.readFileSync('./src/shiraori.jpg')
 let user = global.DATABASE.data.users[m.sender]
 /*conn.sendFile(m.chat, img, '', `Halo juga kak ${conn.getName(m.sender)}`, { key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `${ucapan()} ${conn.getName(m.sender)}`, itemCount: 999, thumbnail: fs.readFileSync('./src/mikey.jpg')
 }}})*/
@@ -23,7 +23,7 @@ var seconds = Math.floor(seconds % 60);
 return `${pad(hours)}Jam ${pad(minutes)}Menit ${pad(seconds)}Detik`
 }
 runtime = process.uptime()
-					teks = `𝑲𝒊𝒏𝒈 𝑶𝒇 𝑩𝒆𝒂𝒓 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍`// \n\n${kyun(runtime)}`
+					teks = `𝖮𝗇𝖾 𝖡𝗈𝗍𝗓`// \n\n${kyun(runtime)}`
 					run = `${kyun(runtime)}`
 					var itsme = `0@s.whatsapp.net`
 					var split = `teks`
